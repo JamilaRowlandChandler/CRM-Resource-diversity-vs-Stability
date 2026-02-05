@@ -14,6 +14,8 @@ The code is written assuming the user has the data saved in a folder called "Dat
 - `heterogeneity_vs_stability.py`: Main text, figure 5
 - `heterogeneity_vs_stabilit_eLV_(SI).py`: Supplementary information, figures S3, S4, and S6.
 - `M_vs_stability.py`: Main text, figure 3
+- `M_vs_other_sces.py`: Suppplementary information, figure S9
+- `M_vs_stability_robustness_(SI)`: Supplementary information, figures S10 and S11
 - `other_stability_transitions.py`: Supplementary information, figure S8
 
 ### Modules:
