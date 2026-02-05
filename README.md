@@ -17,7 +17,9 @@ The code is written assuming the user has the data saved in a folder called "Dat
 - `other_stability_transitions.py`: Supplementary information, figure S8
 
 ### Modules:
-- #### Cavity method functions: Subdirectory of function files for generating the self-consistency equations (`self_limiting_gc_v_finite_equations.py`) and numerically solving them (`self_consistency_equations_functions.py`).
+- #### Cavity method functions: Subdirectory of function files for
+	- generating the self-consistency equations (`self_limiting_gc_v_finite_equations.py`)
+ 	- and numerically solving them (`self_consistency_equations_functions.py`).
 - #### Consumer-resource models:
 	- `models.py`: Contains the consumer-resource model classes. These classes inherit methods from the other files, excluding ...
 	- `parameters.py`: Interface for randomly generating model coefficients from their respective distributions
