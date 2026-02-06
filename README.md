@@ -23,11 +23,12 @@ The code is written assuming the user has the data saved in a folder called "Dat
 	- generating the self-consistency equations (`self_limiting_gc_v_finite_equations.py`)
  	- and numerically solving them (`self_consistency_equations_functions.py`).
 - #### Consumer-resource models:
-	- `models.py`: Contains the consumer-resource model classes. These classes inherit methods from the other files, excluding ...
+	- `models.py`: Contains the consumer-resource model classes. These classes inherit methods from the other files in the subdirectory excluding `effective_LV_models.py`.
 	- `parameters.py`: Interface for randomly generating model coefficients from their respective distributions
 	- `initial_abundances.py`: Interface for randomly generating initial species and resource abundances,
 	- `differential_equations.py`: Interace for simulating dynamics. (Although the method describing each model's ODE is actually in `models.py` - sorry for the confusion)
 	- `community_level_properties.py`: Interface for calculating emergent community properties like stability.
+ 	- `effective_LV_models.py`: Contains the effective Lotka-Volterra model class. eLVs are generated from already-initialised consumer-resource model objects. 
 - #### `simulation_functions.py`: Collection of functions for simulating many communities with different parameter distributions, generating dataframes of community properties from simulations, and generating quick plots.
 
 ### SCEs codes: Codes for running the solver routine for the self-consistency equations (in "Cavity method functions")
